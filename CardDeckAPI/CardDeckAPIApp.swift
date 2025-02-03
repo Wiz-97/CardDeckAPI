@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct CardDeckAPIApp: App {
+struct DeckOfCardsGameApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CardListView()
         }
     }
 }
