@@ -38,3 +38,8 @@ struct CardListView: View {
         }
     }
 }
+
+#Preview {
+    CardListView()
+}
+

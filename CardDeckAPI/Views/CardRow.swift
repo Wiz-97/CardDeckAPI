@@ -19,7 +19,6 @@ struct CardRow: View {
                 ProgressView()
             }
             .frame(width: 60, height: 90)
-
             Text(card.isRevealed ? "\(card.value) of \(card.suit)" : "???")
                 .font(.title)
             

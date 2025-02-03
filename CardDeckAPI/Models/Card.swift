@@ -16,4 +16,8 @@ struct Card: Codable, Identifiable {
     var isRevealed: Bool = false
 
     var id: String { code }
+    
+    private enum CodingKeys: String, CodingKey {
+            case code, image, value, suit
+        }
 }
